@@ -32,7 +32,7 @@ class Rodape extends HTMLElement{
         const estilo = document.createElement('style')
         estilo.textContent = `
             .rodape{ display: flex; flex-direction: row; justify-content: center; height: 200px; background-color: black; color: #fff;padding: 1em;}
-            .rodape image{width: 150px;}
+            .rodape img{width: 150px;}
             .box{width: 350px; height: 100%; text-align: center;}
             `
         return estilo
