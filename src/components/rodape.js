@@ -26,16 +26,13 @@ class Rodape extends HTMLElement{
         const image = document.createElement('img')
         image.src = this.getAttribute('image')
         acessos.appendChild(image)
-
-       
-
         return rodape
     }
     style(){
         const estilo = document.createElement('style')
         estilo.textContent = `
             .rodape{ display: flex; flex-direction: row; justify-content: center; height: 200px; background-color: black; color: #fff;padding: 1em;}
-            .rodape img{width: 150px}
+            .rodape img{width: 150px;}
             .box{width: 350px; height: 100%; text-align: center;}
             `
         return estilo
